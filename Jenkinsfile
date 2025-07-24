@@ -8,7 +8,7 @@ agent any
             		      echo "Hellow welcome to Jenkins-PAC"
 			      println "Here is your variable defineds:  ${var1}"
 		               println "Here is your global variable :  ${env.BUILD_ID},${env.BUILD_URL}, "
-		                println "Here is your global variable :  ${currentBuild.result}"
+		                println "Here is your global variable :  ${currentBuild.result}, ${currentBuild.id}"
 		  
              }
           }     
