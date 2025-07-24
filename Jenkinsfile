@@ -11,7 +11,7 @@ agent any
     stage ("This is my stage2"){
        steps {
           script {
-                  echo "Hellow welcome to jenkins pac stage-1"
+                  echo "Hellow welcome to jenkins pac stage-2"
              }
           }     
         }
