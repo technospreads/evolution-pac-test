@@ -5,8 +5,11 @@ agent any
        steps {
           script {
 		     var1=20
-            echo "Hellow welcome to Jenkins-PAC"
-			      println "Here is you variable defineds:  ${var1}"
+            		      echo "Hellow welcome to Jenkins-PAC"
+			      println "Here is your variable defineds:  ${var1}"
+		               println "Here is your global variable :  ${env.BUILD_ID},${env.BUILD_URL}, "
+		                println "Here is your global variable :  ${currentBuild.result}"
+		  
              }
           }     
         }
