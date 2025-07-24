@@ -4,17 +4,11 @@ agent any
      stage ("This is my stage1"){
        steps {
           script {
+		     var1=20
             echo "Hellow welcome to Jenkins-PAC"
+			      println "Here is you variable defineds:  ${var1}"
              }
           }     
         }
-    stage ("This is my stage2"){
-       steps {
-          script {
-                  echo "Hellow welcome to jenkins pac stage-2"
-             }
-          }     
-        }
-
      }
  }
