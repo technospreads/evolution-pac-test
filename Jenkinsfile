@@ -7,7 +7,7 @@ agent any
              a=1
 			 while (a<=10){
 			   println "Here is your variable A value: ${a}"
-			 
+			a=a+1 
 		}
              }
           }     
