@@ -5,9 +5,9 @@ agent any
        steps {
           script {
              a=1
-			 while (a<=10){
-			   println "Here is your variable A value: ${a}"
-			a=a+1 
+			For (i=1;i<=20;1++){
+			   println "Here is your variable I value: ${i}"
+		
 		}
              }
           }     
