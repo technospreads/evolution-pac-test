@@ -4,8 +4,7 @@ pipeline {
         stage("This is my stage1") {
             steps {
                 script {
-                 list=[10,20,30,40,50]
-                    for (i in list) {
+                     for (i in 1..15) {
                         println "Here is your variable I value: ${i}"
                     }
                 }
