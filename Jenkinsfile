@@ -4,8 +4,7 @@ agent any
      stage ("This is my stage1"){
        steps {
           script {
-             a=1
-			For (i=1;i<=20;1++){
+ 			For (i = 1; i <= 20; 1++){
 			   println "Here is your variable I value: ${i}"
 		
 		}
