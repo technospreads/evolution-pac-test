@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                  
-                    for (i = 1; i <= 20; i++) {
+                    for (i in [10,20,30,40,50]) {
                         println "Here is your variable I value: ${i}"
                     }
                 }
