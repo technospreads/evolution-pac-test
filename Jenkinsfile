@@ -1,6 +1,6 @@
 def myfuc(int a=1, int b=20){
        result=a+b
-	retun result
+	return result
 }
 
 pipeline {
