@@ -1,5 +1,5 @@
-def myfuc(){
-println "Hellow welcome to Jenkins-PAC Function concept"
+def myfuc(int a, int b){
+println "Here is your Adition of two arguments argumanet ${a},argument${b} is : " ${a+b}
 
 }
 
@@ -9,7 +9,7 @@ agent any
      stage ("This is my stage1"){
        steps {
           script {
- 			   myfuc()
+ 			   myfuc(10, 20)
 		       }
              }
           }     
