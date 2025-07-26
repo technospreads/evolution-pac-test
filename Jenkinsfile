@@ -9,7 +9,7 @@ agent any
      stage ("This is my stage1"){
        steps {
           script {
- 			   myfuc(20,50)
+ 			   myfuc(20,4)
 		       }
              }
           }     
