@@ -1,5 +1,5 @@
 def myfuc(int a, int b){
-println "Here is your Adition of two arguments argumanet ${a},argument${b} is : " ${a+b}
+println "Here is your Adition of two arguments argumanet a=${a},argument b=${b} is :  ${a+b}"
 
 }
 
