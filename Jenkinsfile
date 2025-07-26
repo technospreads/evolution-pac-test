@@ -10,6 +10,8 @@ agent any
        steps {
           script {
  			   myfuc(20,4)
+		           myfuc()
+		           myfuc(2)
 		       }
              }
           }     
